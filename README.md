@@ -15,6 +15,7 @@ What variable(s) should be removed from the input data because they are neither 
 Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+    
     This is Attempt #1
     APPLICATION_TYPE cutoff = 600
     CLASSIFICATION cutoff = 300
@@ -51,12 +52,15 @@ How many neurons, layers, and activation functions did you select for your neura
     The accuracy percent shows that 72% of the model's predicted values align with the true values in the original dataset.
 
 Were you able to achieve the target model performance?
+
 	In the three attempts I made, the model was unable to achieve a target predictive accuracy higher than 73.1%.
 
 What steps did you take in your attempts to increase model performance?
+
 	I tried increasing the number of hidden layers, the number of neurons and finally different activation functions. All of which
     resulted in little to no improvement
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
 	I would consider using another classification model to see if it is better at predicting whether applicants will be successful 
-    if  funded by Alphabet Soup.
+    	if  funded by Alphabet Soup.
